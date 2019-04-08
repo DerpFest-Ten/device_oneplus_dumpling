@@ -24,6 +24,9 @@ $(call inherit-product, device/oneplus/dumpling/device.mk)
 # Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
+# Installs gsi keys into ramdisk, to boot a GSI with verified boot.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+
 # Lawnchair
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
