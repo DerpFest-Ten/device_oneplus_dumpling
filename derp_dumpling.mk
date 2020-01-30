@@ -51,4 +51,4 @@ BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.021/4565141:user/r
 TARGET_VENDOR := oneplus
 
 # Official-ify
-DERP_BUILDTYPE := Beta
+DERP_BUILDTYPE := Official
