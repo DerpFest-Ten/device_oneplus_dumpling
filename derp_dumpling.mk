@@ -24,6 +24,8 @@ $(call inherit-product, device/oneplus/dumpling/device.mk)
 # Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
+WITH_GAPPS := true
+
 PRODUCT_NAME := derp_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
