@@ -28,6 +28,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
 WITH_GAPPS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_NAME := derp_dumpling
 PRODUCT_DEVICE := dumpling
