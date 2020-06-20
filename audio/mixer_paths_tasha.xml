@@ -658,6 +658,10 @@
         <ctl name="AUDIO_REF_EC_UL1 MUX" value="SLIM_RX" />
     </path>
 
+    <path name="echo-reference handset">
+        <ctl name="AUDIO_REF_EC_UL1 MUX" value="SLIM_RX" />
+    </path>
+
     <path name="echo-reference-skype quat_i2s">
          <ctl name="AUDIO_REF_EC_UL8 MUX" value="QUAT_MI2S_TX" />
         <ctl name="EC Reference Channels" value="One"/>
@@ -3292,22 +3296,6 @@
 
     <path name="unprocessed-mic">
         <path name="unprocessed-handset-mic" />
-    </path>
-
-    <path name="unprocessed-stereo-mic">
-        <path name="voice-rec-dmic-ef" />
-    </path>
-
-    <path name="unprocessed-three-mic">
-        <path name="three-mic" />
-    </path>
-
-    <path name="unprocessed-quad-mic">
-        <path name="quad-mic" />
-    </path>
-
-    <path name="unprocessed-headset-mic">
-        <path name="headset-mic" />
     </path>
 
     <!-- Added for ADSP testfwk -->
